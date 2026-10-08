@@ -1,0 +1,18 @@
+# 运行数据与密钥不入库
+data/
+.token
+import-logs.json
+
+# 授权数据派生的地理库不入库（GeoLite2 EULA 禁止再分发；GeoCN 派生库同理）
+geo/geocn-compact.json
+geo/country-compact.json
+source/
+*.mmdb
+
+# 构建输出与备份
+dist/
+*.bak
+*.bak-*
+*.log
+Thumbs.db
+.DS_Store
